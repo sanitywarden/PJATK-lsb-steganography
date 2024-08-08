@@ -1,0 +1,1 @@
+g++ ./src/*.cpp -o file -std=c++20 -Iinclude/ -L./lib/SFML/ -DSFML_STATIC -lsfml-graphics-s -lsfml-window-s -lsfml-system-s -lgdi32 -lwinmm -lopengl32 -lfreetype
